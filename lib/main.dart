@@ -10,7 +10,7 @@ class MyWork extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('My Work'),
+          title: Text('Advanced UI Lab 06'),
         ),
         body: Center(
           child: ColorfulCard(),
@@ -51,7 +51,7 @@ class ColorfulCard extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                'My Work',
+                'Advanced UI',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24,
@@ -60,7 +60,7 @@ class ColorfulCard extends StatelessWidget {
               ),
               SizedBox(height: 5),
               Text(
-                'Mynul islam made this',
+                'LAB 06',
                 style: TextStyle(
                   color: Colors.white70,
                   fontSize: 16,
